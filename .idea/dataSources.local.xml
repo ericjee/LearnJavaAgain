@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - @20.0.0.2 [2]" uuid="93232b0d-54d0-4994-94d6-942dd49d569b">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>access_log.* agent.* agent_log.* cms.* contract.* fin.* fyb.* hims_1.* hims_beta.* hims_kisen.* hims_test.* information_schema.* iw400.* iw_salary.* iw_user.* iwnotice.* jiaizhai.* mls.* msg_history.* mysql.* oa.* percona_schema.* performance_schema.* report.* sms_fyb.* test.* uum.* weixinent.*</schema-pattern>
+      <default-schemas>weixinent.*</default-schemas>
+    </data-source>
+  </component>
+</project>
