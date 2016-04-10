@@ -1,0 +1,28 @@
+package generics;
+
+import com.sun.tools.corba.se.idl.StringGen;
+
+/**
+ * Created by eric on 4/7/16.
+ */
+public class Box<T> {
+    private T t;
+
+    public void add(T t) {
+        this.t = t;
+    }
+
+    public T get(){
+        return t;
+    }
+
+    public static void main(String[] args) {
+        Box<Integer> integerBox = new Box<Integer>();
+        Box<String> stringBox = new Box<String>();
+
+        integerBox.add(10);
+        stringBox.add("HAHA");
+        System.out.printf("Integer Value: %d\n\n", integerBox.get());
+        System.out.printf("String Value: %s\n\n", stringBox.get());
+    }
+}

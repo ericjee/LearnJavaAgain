@@ -1,5 +1,7 @@
 package employee;
 
+import java.io.Serializable;
+
 /**
  * Created by eric on 4/6/16.
  */
